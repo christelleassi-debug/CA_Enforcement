@@ -1,0 +1,8 @@
+method,precision_at_25,hits_in_top_25,lift_vs_random,la_share_of_top_25,pr_auc,roc_auc
+Ensemble (LR + GBM),0.52,13.0,5.01,0.83,0.315,0.762
+Gradient boosting,0.51,12.75,4.882,0.84,0.31,0.763
+Logistic regression,0.5,12.5,4.818,0.74,0.291,0.75
+"Rule: most serious actions, last 3y",0.47,11.75,4.528,0.83,0.28,0.711
+"Ensemble (LR + GBM), max 12 per region",0.45,11.25,4.275,0.48,0.315,0.762
+"Rule: most penalty $, last 3y",0.43,10.75,4.127,0.52,0.255,0.718
+"Rule: most actions, last 12m",0.39,9.75,3.742,0.73,0.244,0.712

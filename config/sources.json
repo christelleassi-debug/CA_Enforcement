@@ -1,0 +1,48 @@
+{
+  "_comment": "Derived from the CHHS datapackage.json for dataset 'healthcare-facility-state-enforcement-actions'. md5 values are the publisher's hashes; the extract stage verifies every download against them.",
+  "dataset_page": "https://data.chhs.ca.gov/dataset/healthcare-facility-state-enforcement-actions",
+  "resources": [
+    {
+      "name": "enforcement_actions",
+      "path": "health-facilities-state-enforcement-actions-1997-2023-data-file.xlsx",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/7c885969-3349-427f-8696-fba4374cd7f8/download/sea_final_20240730.xlsx",
+      "md5": "3720542783c23b76bff15844311074cd",
+      "required": true
+    },
+    {
+      "name": "lookup_table",
+      "path": "lookup-table-health-facility-state-enforcement-actions.xlsx",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/e3e2e2ef-d83b-4163-880d-ad39c4f40433/download/2022_12_05_lookup-table-healthcare-facility-state-enforcement-actions.xlsx",
+      "md5": "50b3e1a47a3998855ad8cb030cbc3b13",
+      "required": true
+    },
+    {
+      "name": "data_dictionary",
+      "path": "data-dictionary-health-facilities-state-enforcement-actions.xlsx",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/e38dd6e0-31a6-46f8-a9a0-8f48a410ee74/download/2022_12_05_data-dictionary-healthcare-facility-state-enforcement-actions.xlsx",
+      "md5": "851ee6c9df01adf67e82befe5e971967",
+      "required": true
+    },
+    {
+      "name": "ltc_narratives",
+      "path": "ltc-citation-narratives-2012-2017-data-file.csv",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/cf865dab-bbf6-4cd7-b6bf-952669ace9fb/download/ltccitationnarratives19982017.csv",
+      "md5": "b945a18b548235f80d7d4dcbe5d49651",
+      "required": true
+    },
+    {
+      "name": "ltc_narratives_dictionary",
+      "path": "data-dictionary-ltc-citation-narratives.xlsx",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/2a382e14-91f1-4c2f-8729-df9587371ddc/download/20180419data-dictionary-ltc-citation-narratives.xlsx",
+      "md5": "a17bb8a9ca22315729eeeef1e7265baf",
+      "required": false
+    },
+    {
+      "name": "about_paper",
+      "path": "about-health-facilities-state-enforcement-actions.pdf",
+      "url": "https://data.chhs.ca.gov/dataset/1e1e2904-1bfb-448c-97e1-cf3e228c9159/resource/f88ac2e2-c587-4b64-bf57-d023dadeec6f/download/20180522about-health-facility-state-enforcement-actions.pdf",
+      "md5": null,
+      "required": false
+    }
+  ]
+}

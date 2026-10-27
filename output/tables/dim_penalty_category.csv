@@ -1,0 +1,58 @@
+category_key,category_name,ae_code,lookup_category_name,lookup_match,match_similarity,category_group
+4e27e220a321,Dietary,,Dietary,exact,1.0,Patient care
+313e08a1f8df,Abuse/Facility Not Self Reported,,Abuse/Facility Not Self Reported,exact,1.0,Abuse (not self-reported)
+c659495afbdf,Financial Occurrence/Fac Not Self Reported,,Financial Occurrence/Facility Not Self Reported,fuzzy,0.944,Administration & records
+d99cdc6b6692,Breach to person/entity outside facility/hc system,,Breach to person/entity outside facility/hc system,exact,1.0,Privacy breach
+d078aa6c1eb3,Willful Material Falsification,,,not_in_lookup,0.633,Administration & records
+976fc0a9a052,Refusal to Readmit,,,not_in_lookup,0.66,Transfer / readmission
+370196bcf315,Breach by h/c worker within facility/hc system,,Breach by h/c worker within facility/hc system,exact,1.0,Privacy breach
+42b1b2abb183,Willful Material Omission,,,not_in_lookup,0.63,Administration & records
+005e35802e74,Written Notification Remedy,,Written Notification Remedy,exact,1.0,Administration & records
+620a2a2f1a43,DHPPD: 1 Day (No Penalty),,,not_in_lookup,0.577,Staffing
+4ba29d060076,AE12 - Medication error,12,AE: Medication error,normalised,1.0,Adverse event (hospital)
+ad0443391a2f,AE17 - Stage 3 or 4 ulcer acquired after admission,17,AE: Stage 3 or 4 ulcer acquired after admission,normalised,1.0,Adverse event (hospital)
+2eb329290445,AE04 - Retention of a foreign object in a patient,04,AE: Retention of a foreign object in a patient,normalised,1.0,Adverse event (hospital)
+8304e8e3f94e,AE08 - Death/disability due to intravascular air embolism,08,AE: Death/disability due to intravascular air embolism,normalised,1.0,Adverse event (hospital)
+c0a533976087,AE01 - Surgery performed on a wrong body part,01,AE: Surgery performed on a wrong body part,normalised,1.0,Adverse event (hospital)
+1a2a5b455443,AE26  - Sexual assault on a patient,26,AE: Sexual assault on a patient,normalised,1.0,Adverse event (hospital)
+9d626a8c8409,AE19 - Death/disability due to electric shock,19,AE: Death/disability due to electric shock,normalised,1.0,Adverse event (hospital)
+0aefa8b8427d,AE25 - Abduction of a patient of any age,25,AE: Abduction of a patient of any age,normalised,1.0,Adverse event (hospital)
+eaba6fd5a95e,A11 - Medical/Surgical Care,,,not_in_lookup,0.623,Hospital unit (2023-24 AP)
+0468f622bec0,AE20 - Line contaminated or use for wrong gas,20,AE: Line contaminated or use for wrong gas,normalised,1.0,Adverse event (hospital)
+98ed3a6afd89,AE07 - Use of device other than as intended,07,AE: Use of device other than as intended,normalised,1.0,Adverse event (hospital)
+b1eee8e3191d,AE10 - Death/disability due to disappearance,10,AE: Death/disability due to disappearance,normalised,1.0,Adverse event (hospital)
+26c16b12ab4c,A5 - Combined Labor/Delivery/Postpartum,,,not_in_lookup,0.681,Hospital unit (2023-24 AP)
+564b5578db90,A10 - Telemetry,,,not_in_lookup,0.644,Hospital unit (2023-24 AP)
+630ce44a25c6,Patient Rights,,Patient Rights,exact,1.0,Patient rights
+1962abe9b550,Patient Care,,Patient Care,exact,1.0,Patient care
+6311ae17c1ee,Other,,Other,exact,1.0,Other
+353bd6f65060,Medication,,Medication,exact,1.0,Patient care
+e5ff579c8580,Physical Environment,,Physical Environment,exact,1.0,Physical environment
+7258e7251413,Administration,,Administration,exact,1.0,Administration & records
+f1cc20adb97c,Staffing,,Staffing,exact,1.0,Staffing
+c4d4982e4959,Problem Transfer,,Problem Transfer,exact,1.0,Transfer / readmission
+7eb59674a81a,Patient Record,,Patient Record,exact,1.0,Administration & records
+bafa065b1f2d,Family/Council Requirement,,Family/Council Requirement,exact,1.0,Administration & records
+eee8cf00c483,Deliberate breach by person other than a h/c worker,,Deliberate breach by person other than a h/c worker,exact,1.0,Privacy breach
+995da225a26f,Breach of IT system theft/loss of edevice/med rec,,Breach of IT system theft/loss of device/med records,fuzzy,0.951,Privacy breach
+1ea73a4c2fd6,Immediate Jeopardy,,Immediate Jeopardy,exact,1.0,Hospital non-AE jeopardy
+092d0889d6c9,Deliberate breach of PHI by health care worker,,,not_in_lookup,0.9,Privacy breach
+714ff620c389,DHPPD: 2 - 11 Days,,,not_in_lookup,0.56,Staffing
+6ea83bacd549,DHPPD: 12 - 24 Days,,,not_in_lookup,0.541,Staffing
+8d796d5855dd,AE28 - Adverse event or series of adverse events,28,AE: Adverse event or series of adverse events,normalised,1.0,Adverse event (hospital)
+2d2d940bbbad,AE11 - Suicide/attempted suicide,11,AE: Suicide/attempted suicide,normalised,1.0,Adverse event (hospital)
+f039f52ccde5,AE27 - Death/injury from a physical assault,27,AE: Death/injury from a physical assault,normalised,1.0,Adverse event (hospital)
+8a3fa6d16df0,AE24 - Care by impersonating licensed provider,24,AE: Care by impersonating licensed provider,normalised,1.0,Adverse event (hospital)
+83f1e7d7d13d,AE22 - Death associated with a fall,22,AE: Death associated with a fall,normalised,1.0,Adverse event (hospital)
+3ca0a5093b48,AE05 - Death during or up to 24 hours after surgery,05,AE: Death during or up to 24 hours after surgery,normalised,1.0,Adverse event (hospital)
+3fdfa79c50e5,AE03 - Wrong surgical procedure performed on a patient,03,AE: Wrong surgical procedure performed on a patient,normalised,1.0,Adverse event (hospital)
+11915caaeaa4,Other Non-Immediate Jeopardy (not an AE),,,not_in_lookup,0.831,Hospital non-AE jeopardy
+48f333199c39,Other Immediate Jeopardy (not an AE),,,not_in_lookup,0.834,Hospital non-AE jeopardy
+bea14b804cb7,AE23 - Death/disab assoc with use of restraints/bedrails,23,AE: Death/disab assoc with use of restraints/bedrails,normalised,1.0,Adverse event (hospital)
+1b325f835da3,AE15 - Death/disability directly related to hypoglycemia,15,AE: Death/disability directly related to hypoglycemia,normalised,1.0,Adverse event (hospital)
+66e350227ebb,AE21 - Death/disability due to a burn,21,AE: Death/disability due to a burn,normalised,1.0,Adverse event (hospital)
+940b7f80a839,AE02 - Wrong patient surgery,02,AE: Wrong patient surgery,normalised,1.0,Adverse event (hospital)
+35241d17e8cd,A1 - Critical Care,,,not_in_lookup,0.618,Hospital unit (2023-24 AP)
+fb1161619a72,AE14 - Maternal death/disab due to labor/del/post,14,AE: Maternal death/disab due to labor/del/post,normalised,1.0,Adverse event (hospital)
+e053cf9d6185,"AE06  -Use of contaminated drug, device, or biologic",06,"AE: Use of contaminated drug, device, or biologic",normalised,1.0,Adverse event (hospital)
+de29761af061,AE13 - Hemolytic reaction,13,AE: Hemolytic reaction,normalised,1.0,Adverse event (hospital)

@@ -1,0 +1,22 @@
+feature,meaning,std_coefficient
+type_snf,skilled nursing facility,0.39156714817390564
+type_gach,general acute care hospital,0.2746321758891182
+recency,recent enforcement activity,0.2474790440899741
+log_amount_36m,penalty dollars assessed in the last 3 years,0.14558423439250326
+serious_all,serious actions on record,0.13644313710655903
+recency_serious,a recent serious action,0.12590946303315037
+tenure_years,years since first action,0.09956838079631405
+care_36m,patient-care / medication citations in the last 3 years,0.06988731518646929
+n_36m,enforcement actions in the last 3 years,0.06817347147364738
+serious_36m,serious actions (AA/A/IJ) in the last 3 years,0.04472939031120159
+abuse_36m,unreported-abuse citations in the last 3 years,0.031083399093375562
+n_12m,enforcement actions in the last 12 months,0.028067756317936378
+aa_all,Class AA (death-related) citations on record,0.018820685439089227
+staffing_36m,nurse-staffing penalties in the last 3 years,0.011176281780914727
+appeal_rate,share of actions appealed,0.007936369453496453
+death_36m,death-related investigations in the last 3 years,-0.019827704369231515
+trend,acceleration (last 12m vs prior 2-yr average),-0.02230564640925983
+complaint_36m,complaint-driven actions in the last 3 years,-0.03396754830125092
+serious_12m,serious actions (AA/A/IJ) in the last 12 months,-0.039778595567134076
+n_all,total enforcement actions on record,-0.04762060043721601
+type_icfdd,ICF for developmentally disabled,-0.3326339997207931

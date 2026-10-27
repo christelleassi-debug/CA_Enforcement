@@ -1,0 +1,22 @@
+district_office,lookup_office_names,match_type,region,note
+Bakersfield,Bakersfield,exact,Central Valley,
+Chico,Chico,exact,Northern CA,
+East Bay,East Bay,exact,Bay Area,
+Fresno,Fresno,exact,Central Valley,
+Riverside,Riverside,exact,Inland Empire,
+Sacramento,Sacramento,exact,Northern CA,
+San Bernardino,San Bernardino,exact,Inland Empire,
+San Francisco,San Francisco,exact,Bay Area,
+San Jose,San Jose,exact,Bay Area,
+Santa Rosa,Santa Rosa,exact,Bay Area,
+State Facilities Section,State Facilities Section,exact,Statewide,
+Ventura,Ventura,exact,Central Coast,
+Orange,Orange County,renamed,Southern CA,Data uses short name 'Orange'; lookup uses 'Orange County'
+San Diego,San Diego North;San Diego South,merged,Southern CA,Data has one San Diego office; lookup splits it North/South - counties unioned
+LA Region 1,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,Data uses numbered LA regions that do not map 1:1 to the lookup's named LA offices; resolved to Los Angeles County only
+LA Region 2,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,See LA Region 1
+LA Region 3,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,See LA Region 1
+LA ICF/DD/Clinics,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,Program-specialised LA unit (ICF/DD + clinics) - not a geographic office
+LA Acute/Ancillary,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,Program-specialised LA unit (hospitals) - not a geographic office
+LA HHA/Hospice,Los Angeles East;Los Angeles North;Los Angeles San Gabriel;Los Angeles West,region_only,Los Angeles,Program-specialised LA unit (home health + hospice) - not a geographic office
+Stockton,,unmatched,Central Valley,Office present in data but absent from the 2022 lookup; counties not published there

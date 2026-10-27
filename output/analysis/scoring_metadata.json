@@ -1,0 +1,12 @@
+{
+  "scored_as_of": "2024-06-29",
+  "facilities_scored": 1324,
+  "horizon_months": 12,
+  "label": "any Class AA/A citation or hospital IJ AP issued in horizon",
+  "expected_serious_in_top25": 11.9,
+  "expected_serious_random25": 3.2,
+  "expected_serious_region_capped25": 11.0,
+  "region_cap": 12,
+  "active_facilities_with_class_aa_last_24m": 49,
+  "top25_with_class_aa_last_24m": 4
+}

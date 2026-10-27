@@ -1,0 +1,15 @@
+class_code,class_description,penalty_type,hsc_section,in_lookup,program,severity_rank,is_serious
+A,Citation A (HSC 1424),Citation,1424,true,LTC citation (HSC 1424/1432),4,true
+WF,Citation Willful Material Falsification (HSC 1424(f)(1)),Citation,1424(f)(1),true,LTC citation (HSC 1424/1432),3,false
+FTR BR,Failure to Report Breach to CDPH (HSC 1280.15(b)(1)),Failure to Report Penalty,1280.15(b)(1),true,Medical-information breach (HSC 1280.15),1,false
+FTR RES,Failure to Report Breach to Resident (HSC 1280.15(b)(2)),Failure to Report Penalty,1280.15(b)(2),true,Medical-information breach (HSC 1280.15),1,false
+AP BR,AP - Breach (HSC 1280.15),Administrative Penalty,1280.15,true,Medical-information breach (HSC 1280.15),2,false
+FTR AE,Failure to Report Adverse Events to CDPH (HSC 1280.4),Failure to Report Penalty,1280.4,true,Hospital AP (HSC 1280.3 / 1280.4),1,false
+B,Citation B (HSC 1424),Citation,1424,true,LTC citation (HSC 1424/1432),2,false
+AA,Citation AA (HSC 1424),Citation,1424,true,LTC citation (HSC 1424/1432),5,true
+WO,Citation Willful Material Omission (HSC 1424(f)(1)),Citation,1424(f)(1),true,LTC citation (HSC 1424/1432),3,false
+RD,Citation Retaliation/Discrimination (HSC 1432),Citation,1432,true,LTC citation (HSC 1424/1432),2,false
+AP NHPPD,AP - 3.2 Nursing-Hours-per-Patient-Day AP (HSC 1276.5),Administrative Penalty,1276.5,true,SNF staffing AP (HSC 1276.5),2,false
+AP IJ,AP - Immediate Jeopardy (HSC 1280.3),Administrative Penalty,1280.3,true,Hospital AP (HSC 1280.3 / 1280.4),4,true
+AP NON-IJ,AP - Non-Immediate Jeopardy (HSC 1280.3),Administrative Penalty,1280.3,true,Hospital AP (HSC 1280.3 / 1280.4),2,false
+NP,Hospital AP - unit category (no penalty detail recorded),Administrative Penalty,,false,Hospital AP (HSC 1280.3 / 1280.4),2,false
