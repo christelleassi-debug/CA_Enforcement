@@ -1,6 +1,6 @@
-   data/raw/
-   data/warehouse/
-   __pycache__/
-   *.pyc
-   .venv/
-   .DS_Store
+data/raw/
+data/warehouse/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
